@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Storyboard</title>
+	<link type="text/css" rel="stylesheet" href="//fast.fonts.com/cssapi/1206c599-a8d6-4332-b78d-b9b9392e6a37.css"/>
+    <link href="../../Base/css/adaptivegrid.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="../../Base/css/main.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="../../Base/css/iutheme.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	
+	<div class="wrapper">
+		<h1 class="title"></h1>
+		<div class="grid gut20"></div>
+	</div>
+	
+	<script src="../../Base/js/jquery.js"></script>
+	<script src="../../Base/js/handlebars.js"></script>
+	<script src="data.js"></script>
+	<script src="../../Base/js/main.js"></script>
+	
+	<script id="tile_template" type="text/x-handlebars-template">
+		<div class="col perc33">
+			<div class="tile">
+				<div class="title">{{title}}</div>
+				<div class="document" style="background-image: url('screens/{{screen}}')">
+					<img src="../../Base/img/screen.png" class="screen">
+				</div>
+				<div class="caption">{{caption}}</div>
+			</div>
+		</div>
+	</script>
+	
+</body>
+</html>

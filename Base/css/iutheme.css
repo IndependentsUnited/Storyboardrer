@@ -1,0 +1,17 @@
+h1.title {
+	font-family: BrandonText-Bold;
+	font-weight: normal;	
+	text-transform: uppercase;
+	color: #f11873;
+	letter-spacing: 0.09em;
+}
+
+/* Tile */
+
+.tile .title {
+	font-family: BrandonText-Bold;
+	font-weight: normal;	
+	text-transform: uppercase;
+	color: #f11873;
+	letter-spacing: 0.09em;
+}

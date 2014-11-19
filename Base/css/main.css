@@ -1,0 +1,73 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	-webkit-font-smoothing: antialiased;
+	font-family: helvetica, arial;
+	font-weight: 100;
+	color: #666666;
+	-webkit-print-color-adjust:exact;
+}
+
+* {
+	box-sizing: border-box	
+}
+
+body {
+	height: 100%;	
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 40px;	
+	min-width: 1200px;
+}
+
+.grid .col {
+	page-break-after: always;
+    page-break-inside: avoid;
+}
+
+h1.title {
+	text-align: center;
+	margin: 40px 0 30px 0;	
+}
+
+/* Tile */
+
+.tile {
+	width: 350px;	
+	height: 600px;
+	margin: 50px auto 25px auto;
+}
+
+.tile .title {
+	font-size: 18px;
+	text-align: center;
+	margin: 0 0 30px 0;
+	letter-spacing: 0.03em;
+	line-height: 1.3em;
+	height: 50px;
+}
+
+.tile .screen {
+	max-width: 100%
+}
+
+.tile .document {
+	width: 100%;
+	height: 241px;
+	background-size: cover;
+	background-position: center 18px;
+}
+
+.tile .caption {
+	border: 1px solid #EEEEEE;
+	border-radius: 3px;
+	min-height: 50px;
+	margin: 20px 0 0 0;
+	padding: 20px;
+	font-size: 15px;
+	line-height: 1.3em;
+	letter-spacing: 0.04em
+}
